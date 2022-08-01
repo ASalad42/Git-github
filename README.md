@@ -42,6 +42,7 @@ Steps on localhost (assuming ssh connection established already):
 - create new repo including readme file 
 - write code in readme file 
 - commit changes 
-- on local host open an empty folder 
-- view terminal 
+- on local host create an empty folder 
+- mkdir filename
+- cd filename
 - git clone 
