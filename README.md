@@ -32,7 +32,19 @@ Steps on localhost (assuming ssh connection established already):
 - git branch -M main
 - git remote add origin git@github.com:ASalad42/eng122_week2.git
 - git push -u origin main (will work everytime as long in correct location)
-*if permission denied add ssh key using agent (key in ssh folder so retrieve from there to establish connection again
+- 
+*if permission denied add ssh key using agent (key in ssh folder so retrieve from there to establish connection again)
+
+### If you dont have ssh keys setup do the following 
+- create .ssh directory (folder) mkdir .ssh
+- open directory with cd. ssh
+- Generate key with $ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+- Email MUST be the same as your github account
+- you will then be prompted to enter a file name and a passphrase
+- upon completion, you will get a public and private key
+- copy the .pub and paste into github (settings>ssh and gpg keys section)
+- once connection establish you can git push 
+
 
 ## Pulling changes made on repo 
 - make changes on github globally 
