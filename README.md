@@ -1,6 +1,10 @@
 # Git-github Week 2
 Git is the industry standard version control system for developers 
 
+## Git diagram 
+![image](https://user-images.githubusercontent.com/104793540/182138775-002d35d4-f184-4f3d-881b-1ca198527334.png)
+
+
 ## Git commands 
 
 - Git init > Create an empty Git repository or reinitialize an existing one
@@ -32,7 +36,7 @@ Steps on localhost (assuming ssh connection established already):
 - git branch -M main
 - git remote add origin git@github.com:ASalad42/eng122_week2.git
 - git push -u origin main (will work everytime as long in correct location)
-- 
+
 *if permission denied add ssh key using agent (key in ssh folder so retrieve from there to establish connection again)
 
 ### If you dont have ssh keys setup do the following 
