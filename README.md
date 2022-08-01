@@ -1,7 +1,18 @@
 # Git-github Week 2
+Git is the industry standard version control system for developers 
 
 ## Git commands 
-explain git commands: git init - git add - git commit - git push -u origin main - git pull
+
+- Git init > Create an empty Git repository or reinitialize an existing one
+- Git add > add files from working area to staging area (index?)
+- Git status > inspects contents of working direcotry 
+- Git commit > perm stores file changes from staging area in repo 
+- Git push > push to remote repo 
+- Git pull > Fetch from and integrate with another repository or a local branch (pull latest from remote repo)
+- Git clone >  Clone a repository into a new directory
+- Git log > show commit logs 
+- Git diff >  Show changes between commits, commit and working tree, etc
+- Git branch >  List, create, or delete branches
 
 how to delete file/folder:
 - rm -rf filename
