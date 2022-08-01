@@ -26,6 +26,7 @@ create repo online first
 wite code > add changes > commit changes > push changes 
 MAKE SURE IN CORRECT LOCATION AT ALL TIMES
 Steps on localhost (assuming ssh connection established already):
+````
 - mkdir filename
 - cd filename 
 - nano README.md > do edits then crl x to save then crl c to exist 
@@ -36,7 +37,7 @@ Steps on localhost (assuming ssh connection established already):
 - git branch -M main
 - git remote add origin git@github.com:ASalad42/eng122_week2.git
 - git push -u origin main (will work everytime as long in correct location)
-
+````
 *if permission denied add ssh key using agent (key in ssh folder so retrieve from there to establish connection again)
 
 ### If you dont have ssh keys setup do the following 
@@ -59,6 +60,8 @@ Steps on localhost (assuming ssh connection established already):
 - write code in readme file 
 - commit changes 
 - on local host create an empty folder 
+````
 - mkdir filename
 - cd filename
 - git clone 
+````
