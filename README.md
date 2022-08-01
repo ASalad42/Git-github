@@ -17,3 +17,6 @@ git commit -m "message"
 git branch -M main
 git remote add origin git@github.com:ASalad42/eng122_week2.git
 git push -u origin main (will work everytime as long in correct location)
+
+
+if permission denied add ssh key using agent (key in ssh folder so retrieve from there to establish connection again) 
